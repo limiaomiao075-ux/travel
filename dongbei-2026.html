@@ -71,7 +71,7 @@ html[data-theme=dark]{--paper:#17231f;--card:#202f28;--ink:#eeeedd;--soft:#aebca
  <div class="section-title"><h2 id="overview-title"><small>02</small>行程总览地图</h2></div>
  <div class="card map-card"><div class="map-caption"><strong>五天的旅行地图</strong><span>示意图，不按比例 · 地点可点<br>手机可左右滑动查看</span></div>
  <div class="map-scroll"><svg class="overview-map" viewBox="0 0 940 440" role="img" aria-labelledby="map-title map-desc">
-  <title id="map-title">广州经郑州飞哈尔滨，第二天高铁到延吉西，第三天转场长白山，最后从长春经停威海返回广州</title><desc id="map-desc">第一天橙色航线；第二天绿色为哈尔滨江畔行程及前往延吉西的高铁；第三天蓝色为延吉市内行程及前往长白山站的高铁；第四天转场长春待确认；第五天玫瑰色返程。</desc>
+  <title id="map-title">广州经郑州飞哈尔滨，高铁到延吉和长白山，第四天游长白山北坡，最后从长春经停威海返回广州</title><desc id="map-desc">第一天橙色航线；第二天绿色为哈尔滨江畔行程及前往延吉西的高铁；第三天蓝色为延吉市内行程及前往长白山站的高铁；第四天紫色为魔界漂流与长白山北坡，清晨漂流时段待核实，夜宿长白山；第五天玫瑰色返程，长白山至龙嘉机场接驳待确认。</desc>
   <defs><pattern id="map-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="currentColor" stroke-opacity=".035"/></pattern></defs>
   <rect width="940" height="440" fill="url(#map-grid)"/>
   <path d="M511 42q67 15 116 1t108 20q44 29 101 12M501 51q72 13 129 0t99 20q37 25 107 13" fill="none" stroke="var(--blue)" stroke-width="2" opacity=".22"/>
@@ -80,7 +80,7 @@ html[data-theme=dark]{--paper:#17231f;--card:#202f28;--ink:#eeeedd;--soft:#aebca
   <g color="var(--orange)"><path class="map-route" stroke="currentColor" stroke-dasharray="7 6" d="M137 340Q53 195 204 161T564 123"/><path d="m548 116 17 7-13 12" fill="none" stroke="currentColor" stroke-width="2"/><text x="83" y="238" font-size="14" transform="rotate(-61 83 238)">D1 · 飞向冰城</text></g>
   <g color="var(--green)"><path class="map-route" stroke="currentColor" d="M580 117q55-43 96-5t83 61"/><circle class="map-dot" cx="645" cy="96" r="4"/><circle class="map-dot" cx="700" cy="130" r="4"/><a class="map-a" data-map-place="railwayBridge"><text x="710" y="105" font-size="14">D2 · 铁路桥 ↗</text></a><a class="map-a" data-map-place="stalin"><text x="710" y="127" font-size="14">防洪纪念塔 ↗</text></a><a class="map-a" data-map-place="yanjiWest"><text x="775" y="174" font-size="14">17:55 · 延吉西 ↗</text></a></g>
   <g color="var(--blue)"><path class="map-route" stroke="currentColor" stroke-dasharray="5 6" d="M759 173q-117 66-244 116"/><path d="m502 279 13 10 1-15" fill="none" stroke="currentColor" stroke-width="2"/><text x="533" y="239" font-size="14">D3 · 延吉市内 → 长白山站</text><text x="533" y="260" class="map-sub">16:33—18:18 高铁待购</text></g>
-  <g color="var(--purple)"><path class="map-route" stroke="currentColor" stroke-dasharray="5 6" d="M515 289q81 18 157 48"/><circle class="map-dot" cx="672" cy="337" r="5"/><text x="692" y="334" font-size="16">D4 · 转场长春待确认</text><text x="692" y="355" class="map-sub">现有日期冲突，暂不排景点</text></g>
+  <g color="var(--purple)"><path class="map-route" stroke="currentColor" stroke-dasharray="5 6" d="M666 262q57-13 118 24t-118-24"/><circle class="map-dot" cx="784" cy="286" r="5"/><a class="map-a" data-map-place="northVisitorCenter"><text x="692" y="334" font-size="16">D4 · 魔界漂流与北坡 ↗</text></a><text x="692" y="355" class="map-sub">漂流时段待核实 · 夜宿长白山</text></g>
   <g color="var(--rose)"><path class="map-route" stroke="currentColor" stroke-dasharray="7 6" d="M498 323q-41 82-174 64t-186-43"/><circle class="map-dot" cx="330" cy="387" r="4"/><text x="255" y="423" font-size="14">D5 · 经停威海，回家</text></g>
   <g fill="none" stroke="var(--soft)" stroke-width="1.4"><path d="M867 65V31m-6 10 6-10 6 10"/><path d="m782 234 10-21 10 21h-20m31 9 10-23 10 23h-20m-55 6 8-19 8 19h-16"/></g><text x="860" y="22" class="map-sub">N</text>
   <g id="overview-places"></g>
@@ -88,7 +88,7 @@ html[data-theme=dark]{--paper:#17231f;--card:#202f28;--ink:#eeeedd;--soft:#aebca
   <rect x="590" y="174" width="300" height="51" rx="5" stroke="var(--line)" fill="var(--card)"/><a class="map-a" data-map-place="homeinnH"><text x="603" y="194" font-size="14">☾ 12/4 · 如家商旅安国街店 ↗</text></a><text x="603" y="212" class="map-sub">已订2间1晚 · 12/5中午退房</text>
   <rect x="536" y="367" width="334" height="49" rx="5" stroke="var(--line)" fill="var(--card)"/><a class="map-a" data-map-place="yanjiStay"><text x="549" y="387" font-size="14">☾ 12/5 · 汉庭延吉网红墙店 ↗</text></a><text x="549" y="405" class="map-sub">已订2间1晚 · 12/6中午退房</text>
  </svg></div>
- <div class="map-key"><span style="--day:var(--orange)"><i></i>D1 抵达哈尔滨</span><span style="--day:var(--green)"><i></i>D2 哈尔滨 → 延吉</span><span style="--day:var(--blue)"><i></i>D3 延吉 → 长白山</span><span style="--day:var(--purple)"><i></i>D4 转场待确认</span><span style="--day:var(--rose)"><i></i>D5 回到广州</span></div>
+ <div class="map-key"><span style="--day:var(--orange)"><i></i>D1 抵达哈尔滨</span><span style="--day:var(--green)"><i></i>D2 哈尔滨 → 延吉</span><span style="--day:var(--blue)"><i></i>D3 延吉 → 长白山</span><span style="--day:var(--purple)"><i></i>D4 漂流与北坡</span><span style="--day:var(--rose)"><i></i>D5 回到广州</span></div>
   <div class="sleep-grid"><div><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M3 5v16m18-9v9M3 16h18M3 9h6v7m0-4h9a3 3 0 0 1 3 3v1"/></svg><div><b>哈尔滨 · 已订2间1晚</b><p><a data-place="homeinnH">如家商旅安国街店</a>，12月4日14:00后入住、5日12:00前退房（UTC+8）。双床房2间、共含4份早餐。</p></div></div><div><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M3 5v16m18-9v9M3 16h18M3 9h6v7m0-4h9a3 3 0 0 1 3 3v1"/></svg><div><b>延吉 · 已订2间1晚</b><p><a data-place="yanjiStay">汉庭酒店（延吉市政府延边大学网红墙店）</a>，12月5日14:00后入住、6日12:00前离店。地址：延吉长白山西路2562号弘川大厦。</p></div></div><div><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M3 5v16m18-9v9M3 16h18M3 9h6v7m0-4h9a3 3 0 0 1 3 3v1"/></svg><div><b>长白山 · 已订2间2晚</b><p><a data-place="changbaiStay">森屿智能酒店（长白山二道白河镇店）</a>，12月6日10:00后入住、8日14:00前离店。地址：安图县天池街常青花园2期8号楼1楼。</p></div></div></div></div>
   <div class="warning"><strong>这趟旅行的边界：</strong>12月上旬不保证冰雪大世界室外园已开园，也不保证积雪、滑雪场或冰上项目开放，暂不纳入固定行程。第2天方案1从08:15出发后连续跨区，只能短停；09:30巴洛克街区晚点就跳过。方案2的09:40防洪纪念塔、10:00音乐长廊无法正常衔接。12月8日13:40从长春龙嘉起飞，必须提前离开长白山酒店；长白山到长春或机场的交通尚未确定。松花江只在陆地开放区域游览。</div>
 </section>
@@ -99,12 +99,14 @@ html[data-theme=dark]{--paper:#17231f;--card:#202f28;--ink:#eeeedd;--soft:#aebca
 </section>
 <section id="itinerary" aria-labelledby="itinerary-title"><div class="section-title"><h2 id="itinerary-title"><small>04</small>逐日行程</h2></div><div class="day-index" aria-label="选择日期"><a href="#day-1">12.04 · 周五</a><a href="#day-2">12.05 · 周六</a><a href="#day-3">12.06 · 周日</a><a href="#day-4">12.07 · 周一</a><a href="#day-5">12.08 · 周二</a></div><div id="days"></div></section>
 <section id="todo" aria-labelledby="todo-title"><div class="section-title"><h2 id="todo-title"><small>05</small>待办清单</h2></div><div class="card todo-card"><ol class="todo-list">
-  <li><div><b>确定长白山到长春及返程机场的交通</b><p>已确认12月4日哈尔滨、12月5日延吉、12月6—7日长白山各2间房。返程航班12月8日13:40从长春龙嘉起飞，需确定提前离店时间、是否12月7日晚改住长春，以及去机场的交通。</p></div></li>
+  <li><div><b>确定12月8日长白山到龙嘉机场的交通</b><p>12月7日晚继续住森屿酒店，12月8日13:40从长春龙嘉起飞。按11:30到机场倒推已核实的早班高铁、换乘或包车及雪天余量，再确定离店时间；若无法可靠衔接，需重排前夜住宿或交通，不能直接套用长春市区出发时间。</p></div></li>
  <li><div><b>购买12月5日13:40—17:55前往延吉西站的高铁</b><p>哈尔滨西站 → 延吉西站，四人同行；均为北京时间 UTC+8。当前仅确认选择该时段，尚未出票；具体车次、检票口及起售时间以<a href="https://www.12306.cn/" target="_blank" rel="noopener noreferrer">12306</a>为准。</p></div></li>
  <li><div><b>购买12月6日16:33—18:18前往长白山站的高铁</b><p>延吉西站 → 长白山站，四人同行；均为北京时间 UTC+8。尚未收到出票信息，具体车次、检票口及起售时间以<a href="https://www.12306.cn/" target="_blank" rel="noopener noreferrer">12306</a>为准。</p></div></li>
  <li><div><b>预约12月6日民俗园妆造写真</b><p>预约08:00开始的妆造、服装和拍摄时段，确认写真门店、集合地点及是否包含民俗园门票；须在11:30前结束，避免影响午餐、西市场和高铁。</p></div></li>
- <li><div><b>购买12月4日长白山西站 → 长春的高铁</b><p>2026年12月4日15:53—18:33（北京时间 UTC+8），四人同行。具体车次及起售时间以<a href="https://www.12306.cn/" target="_blank" rel="noopener noreferrer">12306</a>为准。</p></div></li>
- <li><div><b>安排两次机场用车，核实四人和行李能否同车</b><p>12月4日04:25前到白云T2、12月8日10:00左右从长春酒店出发（均UTC+8）。广州返程到达白云T3。预留雪天车程；具体接送地址等酒店确定后补齐。</p></div></li>
+ <li><div><b>核对原长白山西站 → 长春高铁的日期和用途</b><p>原提供2026年12月4日15:53—18:33（北京时间 UTC+8），与当日抵达哈尔滨冲突，暂不购票、不计入日程。12月7日已安排全天北坡并住长白山，不将此车次擅自改到7日；返程所需车票另按12月8日航班核实。</p></div></li>
+ <li><div><b>核实12月7日魔界漂流时段与接送</b><p>06:10出发、07:00早餐仅为意向。官方冬季漂流原则上08:00—15:00运营，不得夜漂；先确认经营点获批时段、实际用时、接送及四人预约。若无法衔接08:30去北坡，则取消或另排漂流，优先保留北坡预约。</p></div></li>
+ <li><div><b>预约12月7日长白山北景区及所需车票</b><p>通过“长白山一机游”等官方渠道确认预约时段、北景区游客集散中心检票位置及所需乘车项目；08:30为酒店出发时间，须预留车程和安检。出发前复核天气、开放公告和退改规则，天池不保证开放。</p></div></li>
+ <li><div><b>安排机场用车，核实四人和行李能否同车</b><p>12月4日04:25前到白云T2；12月8日按长白山到龙嘉机场的最终接驳方案确定出发时间（均UTC+8），不沿用长春酒店10:00出发。广州返程到达白云T3。预留雪天余量。</p></div></li>
  <li><div><b>准备保暖、防滑装备及旅行保险</b><p>四人年龄与是否有行动不便情况尚未提供；当前按普通成人轻量步行安排，若有老人、儿童或不宜受寒者需下调户外时长。核实意外险对冰雪项目的保障范围。</p></div></li>
  <li><div><b>出发前复核航变，四人各保存一份离线手册</b><p>检查航司通知、航站楼及联程登机牌办理方式。使用顶部“保存离线版”下载HTML后，在飞行模式下实际打开一次；保存过的离线文件需要重新下载才会获取新内容。</p></div></li>
  </ol></div></section>
@@ -116,11 +118,11 @@ html[data-theme=dark]{--paper:#17231f;--card:#202f28;--ink:#eeeedd;--soft:#aebca
  <article class="card tip-card"><div class="tip-icon">05 / MAPS & OFFLINE</div><h3>地图能点，手册能离线带走</h3><p>地点和路线链接使用高德地图；手机安装高德App时尝试唤起App，否则打开网页，微信等内置浏览器可能无法唤起。高德公开导航链接最多支持一个途经点，因此全天路线按顺序拆为两段；地图标记是规划参考，出发前核对实际地点、酒店地址和接送点。</p><p>下载的单个HTML不加载外部字体、图片、脚本或地图底图；离线可看完整行程、示意地图和倒计时。实时导航、官网及电话服务仍依赖网络或通信。单次打开网页不保证浏览器会永久离线保存，请主动下载。</p></article>
  <article class="card tip-card"><div class="tip-icon">06 / TIME & SAFETY</div><h3>时间跟着行程走，安全跟着天气走</h3><p>全部日期与时刻固定为Asia/Shanghai（北京时间UTC+8），倒计时使用带明确偏移的时间戳；在其他时区打开也指向同一个事件。设备时钟须准确。配色默认按北京时间07:00—17:00（UTC+8）为白天，其余为夜间，可手动切换。</p><p>江面、湖面结冰不等于能走，仅在官方开放的陆地区域活动。返程日13:40从长春龙嘉起飞，必须根据最终接驳方案提前离开长白山酒店；酒店14:00只是最晚退房时间，不代表必须住到当天14:00。联程首段延误时立即找航司处理后续衔接。</p></article>
  </div>
- <div class="references"><h3>车次与出行依据</h3><div class="source-links"><a href="https://www.12306.cn/" target="_blank" rel="noopener noreferrer">12306 · 车次、起售与退改规则 ↗</a></div><p class="fine">高铁均以12306出票信息为准；航班与航站楼依已出票订单记录，如航变则按航司通知重新排程。后续景点确定后再补对应官方开放与预约依据。</p></div>
+ <div class="references"><h3>车次与出行依据</h3><div class="source-links"><a href="https://www.12306.cn/" target="_blank" rel="noopener noreferrer">12306 · 车次、起售与退改规则 ↗</a><a href="https://xxgk.changbaishan.gov.cn/szf/zfbgs/xxgkml/202507/t20250723_267752.html" target="_blank" rel="noopener noreferrer">长白山管委会 · 旅游漂流活动管理规范 ↗</a><a href="https://www.changbaishan.gov.cn/sy/cbsh/202205/t20220523_202530.html" target="_blank" rel="noopener noreferrer">长白山管委会 · 北景区游客集散中心 ↗</a></div><p class="fine">高铁以12306出票信息为准；航班按已出票订单及航司通知执行。漂流冬季原则上08:00—15:00（北京时间 UTC+8）运营、不得夜漂；12月7日具体时段、北景区预约及开放范围仍需临行前按官方通知确认。</p></div>
  <div class="contact-strip" aria-label="常用电话"><span>紧急联络</span><a href="tel:110">报警 110</a><a href="tel:120">急救 120</a></div>
 </section>
 </div>
-<noscript><div class="warning">此手册的逐日行程、地点链接和倒计时需要浏览器启用JavaScript。已确认航班（北京时间UTC+8）：12月4日GJ8583广州06:25→郑州08:50；3U8245郑州11:00→哈尔滨13:40；12月8日MU6896长春13:40→广州19:55，经停威海。哈尔滨、延吉、长白山住宿各2间已订；12月7日晚住宿和12月8日返程接驳尚未确定。高铁及门票尚未购买。</div></noscript>
+<noscript><div class="warning">此手册的逐日行程、地点链接和倒计时需要浏览器启用JavaScript。已确认航班（北京时间UTC+8）：12月4日GJ8583广州06:25→郑州08:50；3U8245郑州11:00→哈尔滨13:40；12月8日MU6896长春13:40→广州19:55，经停威海。哈尔滨、延吉、长白山住宿各2间已订，12月7日晚继续住长白山；12月8日赴龙嘉机场接驳未定。12月7日计划08:30去北坡、约15:00出景区、17:00铁锅炖；06:10魔界漂流时段待核实。高铁及门票尚未购买。</div></noscript>
 </main>
 <footer class="shell"><div><strong>风景慢慢看，平安一起回。</strong><p>东北五日 · 四人同行 · 2026年12月4—8日 · UTC+8</p></div><div>一本随身手册，一起走完这一程。<br>公开页面不展示乘机人姓名、确认号、证件号或房间号。</div></footer>
 <div class="toast" role="status" id="toast" hidden></div>
@@ -161,6 +163,10 @@ const places={
  changbaiStay:{name:'森屿智能酒店（长白山二道白河镇店）',short:'森屿智能酒店',query:'森屿智能酒店 长白山二道白河镇店 安图县天池街常青花园2期8号楼',address:'吉林省安图县天池街常青花园2期8号楼1楼，已订2间2晚',city:'安图'},
  changbaiBBQ:{name:'东北烧烤（餐厅待选）',short:'东北烧烤',query:'二道白河 东北烧烤',address:'二道白河镇，具体餐厅待选',city:'安图'},
  meirensongBridge:{name:'美人松廊桥',short:'美人松廊桥',query:'二道白河 美人松廊桥',address:'长白山二道白河美人松廊桥，具体入口及开放情况以现场指引为准',city:'安图'},
+ mojieRafting:{name:'魔界漂流（具体经营点待确认）',short:'魔界漂流',query:'二道白河 魔界漂流',address:'长白山二道白河周边，具体经营点、上船点及接送位置待预订确认',city:'安图'},
+ changbaiBreakfast:{name:'早餐（餐厅待选）',short:'早餐',query:'二道白河 早餐',address:'二道白河镇，酒店无早餐，具体餐厅待选',city:'安图'},
+ northVisitorCenter:{name:'长白山北景区游客集散中心',short:'北景区集散中心',query:'长白山北景区游客集散中心',address:'长白山池北区北景区游客集散中心，检票及乘车位置以官方预约凭证为准',city:'安图'},
+ changbaiStew:{name:'铁锅炖（餐厅待选）',short:'铁锅炖',query:'二道白河 铁锅炖',address:'二道白河镇，具体餐厅待选，需提前确认营业及备餐时间',city:'安图'},
  ccStation:{name:'长春站',query:'长春火车站',address:'长春市宽城区长白路5号，具体到达出口按车票和接站约定',lat:43.912,lon:125.324},
  hotelC:{name:'人民广场／重庆路片区',short:'长春住宿片区',query:'长春市人民广场',address:'长春市人民广场、重庆路周边（推荐片区，非已订酒店）',lat:43.887,lon:125.324},
  palace:{name:'伪满皇宫博物院',short:'伪满皇宫',query:'长春伪满皇宫博物院陕西路正门',address:'长春市宽城区光复北路5号；参观入口按陕西路正门导引',lat:43.907,lon:125.348},
@@ -257,13 +263,16 @@ const days=[
   {time:'19:10',title:'出门吃东北烧烤',place:'changbaiBBQ',ticket:'餐厅待选',note:'从酒店出门吃东北烧烤，优先选酒店附近、无需长时间排队的店。到20:00只有50分钟，含往返接驳、等餐和用餐较紧，晚餐延时则顺延美人松廊桥。'},
   {time:'20:00',title:'去美人松廊桥，逛完回酒店休息',place:'meirensongBridge',note:'晚餐后前往美人松廊桥，散步拍照；出发前确认入口与夜间开放情况，留意桥面结冰及照明，封闭区域不进入。逛完返回森屿智能酒店休息，回店时间按实际游览结束安排。'}
  ]},
-  {n:4,date:'2026-12-07',weekday:'周一',color:'purple',title:'长白山西转场长春，日期待确认',summary:'15:53—18:33 · 长春住宿未订 · 长白山酒店已订至12月8日14:00',hotel:null,stayText:'长白山酒店已订至12月8日14:00 · 若12月7日去长春，长春当晚住宿未订',route:['changbaiWest','ccStation'],railOnly:true,mode:'rail',routeLabel:'查看待确认高铁',mapNote:'长白山西 → 长春的铁路转场仅作路线示意。你目前提供的车次日期写为12月4日，与行程冲突；即使改为12月7日，森屿酒店当晚住宿与长春住宿仍需二选一处理。',mapPoints:[[104,94],[500,178]],transport:'这条车次不能按12月4日执行。需要确认是否改为12月7日15:53—18:33，并同步处理长白山酒店是否提前离店、长春当晚住宿和12月8日去龙嘉机场的交通。',events:[
-  {time:'15:53',title:'长白山西 → 长春（日期冲突，暂不执行）',place:'changbaiWest',ticket:'日期待确认 · 高铁待购',optional:true,note:'现有信息写为12月4日15:53—18:33（北京时间 UTC+8），与同日航班抵达哈尔滨冲突。这里暂按第4天展示待确认时段，不进入倒计时，不代表已改成12月7日。'},
-  {time:'18:33',title:'抵达长春（仅作待确认参考）',place:'ccStation',ticket:'日期待确认',optional:true,note:'只有在车票日期修正并出票后，才能确认当晚长春住宿和次日去龙嘉机场的出发点。'}
+  {n:4,date:'2026-12-07',weekday:'周一',color:'purple',title:'魔界漂流与长白山北坡',summary:'魔界漂流时段待核实 → 早餐 → 酒店休整 → 北坡 → 可选美人松 → 铁锅炖',hotel:'changbaiStay',hotelNote:' · 已订2间2晚，今晚继续住',route:['changbaiStay','mojieRafting','changbaiBreakfast','changbaiStay','northVisitorCenter','changbaiStay','meirensongBridge','changbaiStay','changbaiStew','changbaiStay'],mapPoints:[[48,190],[140,82],[230,170],[320,82],[410,185],[500,82],[590,176],[680,86],[770,182],[860,86]],mapSegments:[[0,1,2,3,4,5],[5,6,7],[7,8,9]],optionalSegmentIndexes:[1],optionalStopIndexes:[6],searchOnly:true,searchLinks:['changbaiStay','mojieRafting','changbaiBreakfast','northVisitorCenter','meirensongBridge','changbaiStew'],mode:'driving',routeLabel:'查看长白山全天路线',mapNote:'顺序示意：森屿酒店 → 魔界漂流（清晨时段待核实）→ 早餐 → 酒店休整 → 北景区游客集散中心检票乘车 → 酒店休整 → 铁锅炖 → 回酒店。细虚线为美人松廊桥可选支线，休整后按日光与体力决定是否去。漂流经营点和餐厅未定，用高德名称查找后确认入口，不生成虚构坐标的全天导航；景区内按官方换乘安排游览，示意图不代表可自驾入山。',transport:'06:10出发、07:00早餐为原计划，漂流未确认前不进入倒计时。官方规范规定冬季漂流原则上08:00—15:00运营、不得夜漂；需核实具体经营点的获批时段与接送安排。若只能08:00后漂流，无法再按原计划08:30从酒店去北坡：优先保留北坡预约，取消或另排漂流，不硬塞。15:00出景区是预计，需包含换乘排队；返店后按实际时间休整，可选拍照不赶场。今晚继续住长白山，12月8日13:40长春起飞的跨城接驳仍未确定，不能沿用长春市区10:00出发。',events:[
+  {time:'06:10',title:'出发去魔界漂流（时段待核实）',place:'mojieRafting',ticket:'待核实 · 待预约',optional:true,note:'保留06:10从酒店出发的意向，不代表已确认可漂。官方冬季运营时段原则上为08:00—15:00，须先核实具体经营点、获批时段、上下船及接送安排；不能确认则不执行清晨漂流，不为赶行程参与夜漂。'},
+  {time:'07:00',title:'吃早餐',place:'changbaiBreakfast',ticket:'餐厅待选',note:'早餐后回森屿酒店休整、换装，再准备北坡行程。07:00为计划用餐时间，不保证此前能完成漂流；漂流时段未落实时，优先按此时间吃早餐，保留08:30出发。酒店订单不含早餐。'},
+  {time:'08:30',title:'出发去长白山北坡景区',place:'northVisitorCenter',ticket:'门票及车票待预约',note:'休整后从酒店出发，导航到长白山北景区游客集散中心，不是直接开到天池或北坡山门。08:30是出发时间，不是检票时间；根据冬季车程和安检余量选择官方预约时段。天池及各点开放以当日天气和公告为准，午餐自行携带简餐或按景区营业安排解决。'},
+  {time:'15:00',title:'预计出景区，回酒店休整',place:'northVisitorCenter',note:'约15:00结束游览并乘景区车辆出区，目标以回到北景区游客集散中心为准；排队、换乘或天气可能导致延后，回店时间按实际接驳安排，不额外硬排项目。'},
+  {timeLabel:'休整后',title:'美人松廊桥拍白天的景（可选）',place:'meirensongBridge',ticket:'可选 · 不固定出发时刻',optional:true,note:'回酒店休整后仍有日光、体力和时间再去拍照，不额外指定出发时刻，不进入倒计时。冬季天黑早，若出景区较晚、休整不足或光线已暗就跳过，不影响17:00晚餐。'},
+  {time:'17:00',title:'吃铁锅炖，吃完回酒店休息',place:'changbaiStew',ticket:'餐厅待选',note:'按17:00到店用餐安排，提前确认四人餐位、营业和备餐时间。吃完回森屿酒店休息，回店时刻以实际用餐结束为准；同时确认次日离店及前往长春龙嘉机场的交通。'}
  ]},
-  {n:5,date:'2026-12-08',weekday:'周二',color:'rose',title:'收好冬天，平安回家',summary:'13:40长春龙嘉起飞 · 前一晚住宿和接驳待定 · 经停威海',hotel:null,stayText:'需确认12月7日晚住长白山还是转场长春 · 返程接驳待安排',route:['cgq'],navigationUnavailable:true,mode:'driving',routeLabel:'返程接驳待确认',mapNote:'12月7日晚住宿地点尚未确定，返程日实际出发点也未确定，因此暂不提供住宿到机场的公路导航。森屿酒店12月8日14:00是最晚离店时间；若仍住长白山，必须更早离店并核实能否赶上长春航班。',mapPoints:[[478,78]],transport:'返程风险来自出发地和长距离接驳尚未确定，而不是酒店的最晚退房时间。优先确认12月7日是否转场长春并预订当晚住宿；若仍住长白山，需用可核实的车次或包车时长倒推离店时间。',events:[
-  {time:'08:30',title:'返程出发点与接驳待确认',place:'changbaiStay',ticket:'方案待定',optional:true,note:'08:30仅为占位参考，不是可执行时刻。若12月7日晚已经到长春，则从长春住宿出发；若仍住长白山，必须根据确定的交通方案更早离店。'},
-  {time:'10:00',title:'原长春市区出发时段，暂不执行',place:'cgq',ticket:'出发点未确认',optional:true,note:'只有前一晚已经到长春并确认住宿时，才可按市区10:00左右出发；当前长春住宿未订。'},
+  {n:5,date:'2026-12-08',weekday:'周二',color:'rose',title:'收好冬天，平安回家',summary:'长白山出发接驳待定 · 13:40长春龙嘉起飞 · 经停威海',hotel:null,stayText:'12月7日晚住森屿智能酒店 · 12月8日跨城接驳待安排',route:['cgq'],navigationUnavailable:true,mode:'driving',routeLabel:'返程接驳待确认',mapNote:'按12月7日晚继续住森屿酒店安排，次日从长白山前往长春龙嘉机场。具体跨城交通及离店时间未确定，暂不生成未经核实的机场接驳导航。酒店14:00是最晚离店时间，不代表可住到此时；必须按13:40起飞倒推离店时间。',mapPoints:[[478,78]],transport:'返程风险来自长白山到长春龙嘉机场的长距离接驳尚未确定，而不是酒店的最晚退房时间。需核实12月8日早班高铁及去机场换乘，或确认包车接送时间与雪天余量，以11:30到达机场为目标倒推离店时间；如无法可靠衔接，必须重排12月7日晚住宿或交通。',events:[
+  {time:'08:30',title:'跨城接驳与离店时间待确认',place:'changbaiStay',ticket:'接驳待确认',optional:true,note:'08:30仅为占位参考，不是可执行出发时刻。当前按前夜仍住长白山安排，须根据已确认车次、换乘或包车及雪天余量，重新倒推离店时间；不能套用长春市区出发时间。'},
   {time:'11:30',title:'到达龙嘉 T2，值机与安检',place:'cgq',note:'目标起飞前2小时10分到机场。核对MU6896经停流程和最终到达白云T3；无机上餐食，安检后就餐。'},
   {time:'13:40',title:'MU6896 起飞 · 长春 → 广州',place:'cgq',booked:true,note:'经停威海，全程6小时15分。威海经停抵离时刻截图未提供，不编造时间；是否下机、随身行李如何处理按机组指引。'},
   {time:'19:55',title:'抵达广州白云机场 T3',place:'can3',booked:true,note:'接机约在T3，不能沿用去程T2的位置。预留取行李时间后再会合，旅行结束。'}
@@ -273,11 +282,11 @@ function dailyMap(d){
  const dense=d.route.length>6,width=dense?d.route.length*150+30:620,height=280,points=dense?d.mapPoints.map((p,i)=>[90+i*150,p[1]]):d.mapPoints,ids=d.route,segments=d.mapSegments||[points.map((_,i)=>i)];
  const paths=segments.map((segment,i)=>{
   const path=segment.map((pointIndex,part)=>((part?'L':'M')+points[pointIndex].join(' '))).join(' ');
-  const rail=(d.railSegmentIndexes||[]).includes(i);
-  return '<path d="'+path+'" fill="none" stroke="'+(rail?'var(--purple)':'var(--day)')+'" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="'+(rail?'3 5':'6 5')+'"/>';
+  const rail=(d.railSegmentIndexes||[]).includes(i),optional=(d.optionalSegmentIndexes||[]).includes(i);
+  return '<path d="'+path+'" fill="none" stroke="'+(rail?'var(--purple)':'var(--day)')+'" stroke-width="'+(optional?'1.5':'2.5')+'" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="'+(rail||optional?'3 5':'6 5')+'"/>';
  }).join('');
  const nodes=points.map((p,i)=>{
-  const id=ids[i],label=places[id].short||places[id].name,duplicate=ids.indexOf(id)!==i;
+  const id=ids[i],label=(places[id].short||places[id].name)+((d.optionalStopIndexes||[]).includes(i)?'（可选）':''),duplicate=ids.indexOf(id)!==i;
   if(duplicate&&p[0]===points[ids.indexOf(id)][0]&&p[1]===points[ids.indexOf(id)][1])return '';
   const below=p[1]<120;
   return '<a class="map-a" href="'+escapeHTML(placeURL(id))+'" target="_blank" rel="noopener noreferrer" aria-label="导航到'+escapeHTML(label)+'"><title>'+escapeHTML(places[id].address)+'</title><circle cx="'+p[0]+'" cy="'+p[1]+'" r="13" fill="var(--card)" stroke="var(--day)" stroke-width="1.8"/><text x="'+p[0]+'" y="'+(p[1]+4)+'" text-anchor="middle" style="fill:var(--day);font:12px Georgia,serif">'+(i+1)+'</text><text x="'+p[0]+'" y="'+(p[1]+(below?36:-26))+'" text-anchor="middle">'+escapeHTML(label)+'</text></a>';
@@ -286,7 +295,7 @@ function dailyMap(d){
  const plan=d.planLabel?' · '+d.planLabel:'';
  return '<div class="map-scroll"><svg class="daily-map"'+(dense?' style="min-width:'+width+'px"':'')+' viewBox="0 0 '+width+' '+height+'" role="img" aria-label="第'+d.n+'天'+plan+'的路线示意，按标号顺序查看"><path d="M22 251H'+(width-22)+'" fill="none" stroke="var(--line)" stroke-width="1"/>'+paths+nodes+'<text x="22" y="27" class="daily-mode">D0'+d.n+plan+' / 顺序示意，非比例地图 · 可点击地点'+(dense?' · 左右滑动查看':'')+'</text><text x="22" y="271" class="daily-mode">'+footer+'</text></svg></div>';
 }
-function eventHTML(d,e){let note=e.note;const links=e.links?'<p>'+e.links.map(id=>placeLink(id)).join(' / ')+'</p>':'';return '<li>'+timeMark(d.date,e.time)+'<div class="event-body"><div class="event-heading"><h4>'+escapeHTML(e.title)+'</h4>'+(e.booked?'<span class="confirmed">已出票</span>':'')+(e.ticket?'<span class="ticket">'+escapeHTML(e.ticket)+'</span>':'')+'</div>'+(e.place?'<p>'+placeLink(e.place)+'</p>':'')+links+'<p>'+escapeHTML(note)+'</p>'+(e.extraNote?'<p>'+escapeHTML(e.extraNote)+'</p>':'')+'</div></li>';}
+function eventHTML(d,e){let note=e.note;const links=e.links?'<p>'+e.links.map(id=>placeLink(id)).join(' / ')+'</p>':'';const when=e.time?timeMark(d.date,e.time):'<span class="event-relative-time">'+escapeHTML(e.timeLabel||'待定')+'</span>';return '<li>'+when+'<div class="event-body"><div class="event-heading"><h4>'+escapeHTML(e.title)+'</h4>'+(e.booked?'<span class="confirmed">已出票</span>':'')+(e.ticket?'<span class="ticket">'+escapeHTML(e.ticket)+'</span>':'')+'</div>'+(e.place?'<p>'+placeLink(e.place)+'</p>':'')+links+'<p>'+escapeHTML(note)+'</p>'+(e.extraNote?'<p>'+escapeHTML(e.extraNote)+'</p>':'')+'</div></li>';}
 function routeActionsHTML(d){if(d.navigationUnavailable)return '<span class="badge badge-pending">住宿出发点待确认</span>';const ticket=(d.railOnly||d.railTicket)?'<a class="btn btn-primary" href="https://www.12306.cn/" target="_blank" rel="noopener noreferrer">高铁车票与车次 ↗</a>':'';if(d.railOnly)return ticket;const searches=(d.searchLinks||[]).map(id=>'<a class="btn" href="'+escapeHTML(placeURL(id))+'" target="_blank" rel="noopener noreferrer">查找'+escapeHTML(places[id].short||places[id].name)+' ↗</a>').join('');if(d.searchOnly)return ticket+searches;const extra=d.extraRoute?'<a class="btn" href="'+escapeHTML(routeURL(d.extraRoute))+'" target="_blank" rel="noopener noreferrer">哈尔滨住宿片区 → 哈尔滨站 ↗</a><a class="btn" href="https://www.12306.cn/" target="_blank" rel="noopener noreferrer">高铁车票 ↗</a>':'';const segments=d.navSegments||routeSegments(d.route);const routes=segments.map((ids,i)=>'<a class="btn'+(i===0?' btn-primary':'')+'" href="'+escapeHTML(routeURL(ids))+'" target="_blank" rel="noopener noreferrer">'+mapIcon+(segments.length>1?'导航第'+(i+1)+'段：':'导航：')+escapeHTML(places[ids[0]].short||places[ids[0]].name)+' → '+escapeHTML(places[ids[ids.length-1]].short||places[ids[ids.length-1]].name)+' ↗</a>').join('');return extra+routes+searches;}
 function routeDetailsHTML(d,alternate=false){return '<details class="route-details '+(alternate?'route-alternate':'route-primary')+'"><summary><span>'+mapIcon+'展开当天路线地图与导航</span></summary>'+dailyMap(d)+'<div class="route-actions">'+routeActionsHTML(d)+'</div><p class="route-explain">'+escapeHTML(d.mapNote)+'</p></details>';}
 function planPanelHTML(d,plan,id,tabId,hidden=false,alternate=false){return '<div class="plan-panel" id="'+id+'" role="tabpanel" aria-labelledby="'+tabId+'"'+(hidden?' hidden':'')+'>'+routeDetailsHTML(plan,alternate)+'<ol class="timeline">'+plan.events.map(e=>eventHTML(d,e)).join('')+'</ol><div class="weather-note">'+escapeHTML(plan.transport)+'</div></div>';}
