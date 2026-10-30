@@ -160,7 +160,7 @@ const places={
  changbaiWest:{name:'长白山西站',short:'长白山西',query:'长白山西站',address:'吉林省长白山地区，具体车站位置及进出站口以12306车票与现场指引为准',city:'长白山'},
  changbaiStay:{name:'森屿智能酒店（长白山二道白河镇店）',short:'森屿智能酒店',query:'森屿智能酒店 长白山二道白河镇店 安图县天池街常青花园2期8号楼',address:'吉林省安图县天池街常青花园2期8号楼1楼，已订2间2晚',city:'安图'},
  changbaiBBQ:{name:'东北烧烤（餐厅待选）',short:'东北烧烤',query:'二道白河 东北烧烤',address:'二道白河镇，具体餐厅待选',city:'安图'},
- yundingPalace:{name:'云顶天宫',short:'云顶天宫',query:'二道白河 云顶天宫',address:'长白山二道白河周边，具体入口、夜间营业及票务以商家当日信息为准',city:'安图'},
+ meirensongBridge:{name:'美人松廊桥',short:'美人松廊桥',query:'二道白河 美人松廊桥',address:'长白山二道白河美人松廊桥，具体入口及开放情况以现场指引为准',city:'安图'},
  ccStation:{name:'长春站',query:'长春火车站',address:'长春市宽城区长白路5号，具体到达出口按车票和接站约定',lat:43.912,lon:125.324},
  hotelC:{name:'人民广场／重庆路片区',short:'长春住宿片区',query:'长春市人民广场',address:'长春市人民广场、重庆路周边（推荐片区，非已订酒店）',lat:43.887,lon:125.324},
  palace:{name:'伪满皇宫博物院',short:'伪满皇宫',query:'长春伪满皇宫博物院陕西路正门',address:'长春市宽城区光复北路5号；参观入口按陕西路正门导引',lat:43.907,lon:125.348},
@@ -244,7 +244,7 @@ const days=[
   {time:'21:00',title:'发展大坡拍照',place:'yanjiSlope',note:'出发前用高德确认具体拍照点、夜间道路和天气；如果结冰、能见度差或时间太晚，安全优先，取消此站。'},
   {time:'21:40',title:'拍完回酒店休息',place:'yanjiStay',note:'回汉庭延吉网红墙店休息。以上晚间时刻均为参考，需根据实际到站、入住和餐厅位置顺延。'}
  ]},
-  {n:3,date:'2026-12-06',weekday:'周日',color:'blue',title:'延吉写真与市集，傍晚转场长白山',summary:'水上市场 → 民俗园写真 → 西市场 → 高铁 → 东北烧烤 → 云顶天宫',hotel:'changbaiStay',hotelNote:' · 已订2间2晚',stayText:'今晚住：森屿智能酒店（长白山二道白河镇店） · 已订2间2晚',route:['yanjiStay','yanjiWaterMarket','yanjiFolkPark','yanjiWestMarket','yanjiStay','yanjiWest','changbaiStation','changbaiStay','changbaiBBQ','yundingPalace','changbaiStay'],mapPoints:[[48,190],[118,82],[205,165],[290,75],[368,188],[445,104],[525,184],[590,78],[650,182],[720,80],[790,184]],mapSegments:[[0,1,2,3,4,5],[5,6],[6,7,8,9,10]],railSegmentIndexes:[1],searchOnly:true,searchLinks:['yanjiStay','yanjiWaterMarket','yanjiFolkPark','yanjiWestMarket','yanjiWest','changbaiStation','changbaiStay','changbaiBBQ','yundingPalace'],railTicket:true,mode:'rail',routeLabel:'查看延吉市内路线与高铁',mapNote:'顺序示意：汉庭酒店寄存行李 → 水上市场 → 民俗园 → 西市场 → 酒店取行李 → 延吉西站；16:33乘高铁到长白山站 → 森屿智能酒店 → 东北烧烤 → 云顶天宫 → 回酒店。紫色虚线是铁路段，不作为公路导航；地点按钮用于在高德选中准确入口。',transport:'酒店要求12:00前离店，清晨外出前先退房并确认寄存4人行李。15:00从酒店出发，提前叫车，目标约15:30到延吉西站。写真延时优先压缩午餐和西市场。19:00参考入住与19:10出门只隔10分钟；到店较晚则晚餐和夜游顺延。19:10—20:00含路程、等餐和用餐，时间偏紧；不赶吃饭，云顶天宫须先确认夜间开放及最晚入场时间。',events:[
+  {n:3,date:'2026-12-06',weekday:'周日',color:'blue',title:'延吉写真与市集，傍晚转场长白山',summary:'水上市场 → 民俗园写真 → 西市场 → 高铁 → 东北烧烤 → 美人松廊桥',hotel:'changbaiStay',hotelNote:' · 已订2间2晚',stayText:'今晚住：森屿智能酒店（长白山二道白河镇店） · 已订2间2晚',route:['yanjiStay','yanjiWaterMarket','yanjiFolkPark','yanjiWestMarket','yanjiStay','yanjiWest','changbaiStation','changbaiStay','changbaiBBQ','meirensongBridge','changbaiStay'],mapPoints:[[48,190],[118,82],[205,165],[290,75],[368,188],[445,104],[525,184],[590,78],[650,182],[720,80],[790,184]],mapSegments:[[0,1,2,3,4,5],[5,6],[6,7,8,9,10]],railSegmentIndexes:[1],searchOnly:true,searchLinks:['yanjiStay','yanjiWaterMarket','yanjiFolkPark','yanjiWestMarket','yanjiWest','changbaiStation','changbaiStay','changbaiBBQ','meirensongBridge'],railTicket:true,mode:'rail',routeLabel:'查看延吉市内路线与高铁',mapNote:'顺序示意：汉庭酒店寄存行李 → 水上市场 → 民俗园 → 西市场 → 酒店取行李 → 延吉西站；16:33乘高铁到长白山站 → 森屿智能酒店 → 东北烧烤 → 美人松廊桥 → 回酒店。紫色虚线是铁路段，不作为公路导航；地点按钮用于在高德选中准确入口。',transport:'酒店要求12:00前离店，清晨外出前先退房并确认寄存4人行李。15:00从酒店出发，提前叫车，目标约15:30到延吉西站。写真延时优先压缩午餐和西市场。19:00参考入住与19:10出门只隔10分钟；到店较晚则晚餐和夜游顺延。19:10—20:00含路程、等餐和用餐，时间偏紧；不赶吃饭，美人松廊桥先确认夜间开放情况，遇结冰或封闭不进入。',events:[
   {time:'06:10',title:'退房并寄存行李',place:'yanjiStay',note:'酒店订单要求12:00前离店。去水上市场前办完退房，并提前向酒店确认可寄存四人的行李至15:00；贵重物品随身携带。'},
   {time:'06:30',title:'到水上市场吃早餐',place:'yanjiWaterMarket',note:'按06:30到达安排，早餐后及时出发；摊位营业、具体入口和当天客流临近出发再用高德核实。'},
   {time:'08:00',title:'民俗园开始妆造拍写真',place:'yanjiFolkPark',ticket:'写真待预约',note:'需要提前预约妆造、服装和拍摄时段，并确认集合门店是否就在民俗园内。按08:00开始、11:30前结束控制；逾时会直接挤压午餐和西市场。'},
@@ -254,8 +254,8 @@ const days=[
   {time:'16:33',title:'高铁出发 · 延吉西 → 长白山站',place:'yanjiWest',ticket:'高铁待购',note:'计划乘坐16:33—18:18这一班，四人同行。尚未收到出票信息，车次、检票口和实际时刻以12306出票为准。',focusNote:'高铁尚未出票；当前按16:33延吉西站出发安排。'},
   {time:'18:18',title:'抵达长白山站',place:'changbaiStation',ticket:'酒店已订',note:'出站后前往已订森屿智能酒店（二道白河镇店）。接驳车型需容纳四人及全部行李，具体车程以当晚路况和高德导航为准。'},
   {time:'19:00',title:'到森屿智能酒店办理入住',place:'changbaiStay',ticket:'2间房已订',note:'19:00为参考时刻，按实际出站和接驳顺延；距离19:10出门仅10分钟，建议提前与前台沟通入住手续。酒店无早餐，次日早餐需要另行安排。'},
-  {time:'19:10',title:'出门吃东北烧烤',place:'changbaiBBQ',ticket:'餐厅待选',note:'从酒店出门吃东北烧烤，优先选酒店附近、无需长时间排队的店。到20:00只有50分钟，含往返接驳、等餐和用餐较紧，晚餐延时则顺延云顶天宫。'},
-  {time:'20:00',title:'去云顶天宫，逛完回酒店休息',place:'yundingPalace',ticket:'夜间开放及票务待核实',note:'晚餐后前往云顶天宫，出发前确认具体入口、12月6日夜间营业、最晚入场时间及是否需要预约购票。逛完返回森屿智能酒店休息，回店时间按实际游览结束安排。'}
+  {time:'19:10',title:'出门吃东北烧烤',place:'changbaiBBQ',ticket:'餐厅待选',note:'从酒店出门吃东北烧烤，优先选酒店附近、无需长时间排队的店。到20:00只有50分钟，含往返接驳、等餐和用餐较紧，晚餐延时则顺延美人松廊桥。'},
+  {time:'20:00',title:'去美人松廊桥，逛完回酒店休息',place:'meirensongBridge',note:'晚餐后前往美人松廊桥，散步拍照；出发前确认入口与夜间开放情况，留意桥面结冰及照明，封闭区域不进入。逛完返回森屿智能酒店休息，回店时间按实际游览结束安排。'}
  ]},
   {n:4,date:'2026-12-07',weekday:'周一',color:'purple',title:'长白山西转场长春，日期待确认',summary:'15:53—18:33 · 长春住宿未订 · 长白山酒店已订至12月8日14:00',hotel:null,stayText:'长白山酒店已订至12月8日14:00 · 若12月7日去长春，长春当晚住宿未订',route:['changbaiWest','ccStation'],railOnly:true,mode:'rail',routeLabel:'查看待确认高铁',mapNote:'长白山西 → 长春的铁路转场仅作路线示意。你目前提供的车次日期写为12月4日，与行程冲突；即使改为12月7日，森屿酒店当晚住宿与长春住宿仍需二选一处理。',mapPoints:[[104,94],[500,178]],transport:'这条车次不能按12月4日执行。需要确认是否改为12月7日15:53—18:33，并同步处理长白山酒店是否提前离店、长春当晚住宿和12月8日去龙嘉机场的交通。',events:[
   {time:'15:53',title:'长白山西 → 长春（日期冲突，暂不执行）',place:'changbaiWest',ticket:'日期待确认 · 高铁待购',optional:true,note:'现有信息写为12月4日15:53—18:33（北京时间 UTC+8），与同日航班抵达哈尔滨冲突。这里暂按第4天展示待确认时段，不进入倒计时，不代表已改成12月7日。'},
