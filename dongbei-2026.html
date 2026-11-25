@@ -21,29 +21,30 @@ html[data-theme=dark]{--paper:#17231f;--card:#202f28;--ink:#eeeedd;--soft:#aebca
 @media(max-width:540px){.shell{padding-left:18px;padding-right:18px}.masthead{padding-top:17px;padding-bottom:17px;gap:8px}.brand strong{font-size:15px;letter-spacing:2px}.brand small{font-size:9px;letter-spacing:1px}.brand-mark{width:29px;height:29px;font-size:19px}.utilities{gap:6px}.utilities .btn{padding:7px 9px;font-size:10px;min-height:37px}.utilities .btn svg{width:13px}.focus{padding:24px 21px 22px;border-radius:10px}.focus-head{display:block}.focus-art{position:absolute;width:127px;top:40px;right:6px;opacity:.28;z-index:-1}.focus h1{font-size:31px;letter-spacing:1px;max-width:260px;margin-top:17px}.focus-sub{font-size:12px;max-width:255px}.focus-meta{gap:5px;margin-top:18px}.focus-meta span{font-size:10px;padding:3px 8px}.eyebrow{font-size:10px}.focus-event{margin-top:22px;padding-top:19px;gap:20px}.next-title{font-size:17px}.focus-time{font-size:11px;line-height:1.9}.countdown{gap:7px;justify-content:space-between;max-width:355px}.count-unit{min-width:48px}.count-unit b{font-size:47px}.count-sep{font-size:20px;margin-bottom:17px}.clock-caption{font-size:9px}.jumpbar{margin-top:12px}.jumpbar .shell{gap:23px;padding-top:9px;padding-bottom:9px}.jumpbar a{font-size:11px}.jumpbar a span{margin-right:4px}section{margin-top:31px}.section-title{gap:10px;display:block;margin-bottom:14px}.section-title h2{font-size:25px}.section-title p{text-align:left;margin:7px 0 0 30px}.map-caption{padding:14px 16px;gap:8px}.map-caption strong{font-size:13px}.map-caption span{font-size:10px;text-align:right;max-width:120px}.map-key{padding:13px 16px;gap:8px 15px}.map-key span{font-size:10px}.sleep-grid{grid-template-columns:1fr}.sleep-grid>div{padding:15px 16px}.warning{font-size:11px;padding:13px 15px}.flight-code{font-size:20px}.day-index{gap:6px}.day-index a{font-size:11px;padding:6px 9px}.day-header{grid-template-columns:45px 1fr;padding:20px 17px 16px;gap:12px}.day-number{font-size:32px;padding-right:10px}.day-header h3{font-size:21px}.day-summary{font-size:11px}.route-details{margin-left:17px;margin-right:17px}.plan-tabs{margin-left:17px;margin-right:17px}.plan-tabs button{padding:9px 13px 10px;font-size:12px}.shared-heading{margin-left:17px;margin-right:17px;font-size:15px}.shared-note{margin-left:17px;margin-right:17px}.timeline{padding-left:17px;padding-right:17px}.timeline>li{grid-template-columns:61px minmax(0,1fr);gap:16px}.timeline>li:before{left:67px;top:23px}.timeline>li:not(:last-child):after{left:70px}.timeline time{font-size:13px}.timeline time small{font-size:8px}.event-body{padding-left:5px}.event-heading{gap:5px}.event-heading h4{font-size:13px}.event-body p{font-size:11px}.ticket,.confirmed{font-size:9px}.day-footer{margin-left:17px;margin-right:17px;font-size:10px}.weather-note{margin-left:17px;margin-right:17px;font-size:11px}.todo-card{padding-left:17px;padding-right:17px}.todo-list li{gap:8px}.todo-list b{font-size:12px}.todo-list p{font-size:11px}.tips-grid{grid-template-columns:1fr}.tip-card{padding:19px 20px}footer{margin-top:32px;display:block}footer>div+div{margin-top:15px}.contact-strip{font-size:11px;gap:10px 15px}}
 /* A ticket-shaped itinerary card; no boarding credential is stored here. */
 .boarding-pass{position:relative;display:flex;flex-direction:column;min-width:0;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow)}
-.boarding-pass:before{content:"";position:absolute;top:0;left:20px;right:20px;border-top:3px solid var(--green)}
-.boarding-main{padding:20px 20px 18px;flex:1}
-.boarding-head{display:flex;align-items:start;justify-content:space-between;gap:10px}
-.boarding-airline{font-size:10px;color:var(--soft);margin:0 0 2px}
+.boarding-pass:before{content:"";position:absolute;inset:0 0 auto;height:6px;background:#06bfd0}
+.boarding-main{padding:17px 20px 18px;flex:1}
+.boarding-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.boarding-airline{font-size:10px;color:#078b98;margin:0 0 2px;font-weight:650}
 .boarding-number{font:normal 23px/1.2 Georgia,serif;color:var(--ink)}
-.boarding-date{font-size:11px;color:var(--soft);margin:12px 0 16px}
+.boarding-date{font-size:11px;color:var(--soft);margin:10px 0 13px}
 .boarding-route{display:grid;grid-template-columns:minmax(0,1fr) 32px minmax(0,1fr);gap:4px;align-items:start}
 .boarding-stop{min-width:0}
 .boarding-stop:last-child{text-align:right}
+.boarding-direction{display:block;color:var(--soft);font-size:9px;line-height:1.4}
 .boarding-code{font:normal 32px/1.1 Georgia,serif;color:var(--ink)}
-.boarding-arrow{text-align:center;color:var(--orange);font:20px/1.3 Georgia,serif;padding-top:5px}
-.boarding-stop time{display:block;font:normal 23px/1.3 Georgia,serif;font-variant-numeric:tabular-nums;margin:6px 0 2px}
+.boarding-arrow{text-align:center;color:#078b98;font:20px/1.3 Georgia,serif;padding-top:16px}
+.boarding-stop time{display:block;font:normal 23px/1.3 Georgia,serif;font-variant-numeric:tabular-nums;margin:5px 0 2px}
 .boarding-stop .place{font-size:11px;line-height:1.5;overflow-wrap:anywhere}
 .boarding-zone{display:block;font-size:10px;color:var(--soft);margin-top:4px}
 .boarding-seam{position:relative;border-top:1px dashed var(--line);margin:0 20px}
 .boarding-seam:before,.boarding-seam:after{content:"";position:absolute;top:-11px;width:20px;height:20px;border:1px solid var(--line);border-radius:50%;background:var(--paper)}
 .boarding-seam:before{left:-31px}.boarding-seam:after{right:-31px}
-.boarding-stub{padding:17px 20px 16px}
+.boarding-stub{padding:14px 20px 15px}
 .boarding-details{font-size:11px;color:var(--soft);line-height:1.85}
 .boarding-details a{overflow-wrap:anywhere}
 .boarding-details .place{color:var(--ink)}
-.boarding-disclaimer{border-top:1px solid var(--line);margin-top:12px;padding-top:8px;font-size:10px;color:var(--soft)}
-@media(max-width:800px){.boarding-main{padding:18px 21px}.boarding-stub{padding:15px 21px}.boarding-seam{margin:0 21px}.boarding-code{font-size:35px}}
+.boarding-disclaimer{border-top:1px solid var(--line);margin-top:10px;padding-top:7px;font-size:10px;color:var(--soft)}
+@media(max-width:800px){.boarding-main{padding:17px 21px}.boarding-stub{padding:14px 21px}.boarding-seam{margin:0 21px}.boarding-code{font-size:35px}}
 @media(max-width:360px){.boarding-code{font-size:29px}.boarding-stop time{font-size:21px}}
 @media(min-width:801px){.focus-head{padding-right:180px}.focus-art{position:absolute;top:14px;right:38px;width:145px}.focus-event{margin-top:18px;padding-top:18px}}
 @media(min-width:541px) and (max-width:800px){.focus-art{width:105px;align-self:flex-start}.focus-event{margin-top:18px}}
@@ -203,9 +204,9 @@ if(!document.querySelector('.confirmed-list .boarding-pass'))flightCards.innerHT
    <div class="boarding-head"><div><p class="boarding-airline">${escapeHTML(f.airline)} · FLIGHT</p><strong class="boarding-number">${escapeHTML(f.code)}</strong></div><span class="badge">四人已出票</span></div>
    <p class="boarding-date">${dateLabel(f.date)} · UTC+8</p>
    <div class="boarding-route">
-    <div class="boarding-stop"><div class="boarding-code">${airportCodes[f.from]}</div><time datetime="${iso(f.date,f.depart)}">${f.depart}</time>${placeLink(f.from)}<small class="boarding-zone">北京时间 UTC+8</small></div>
+    <div class="boarding-stop"><small class="boarding-direction">出发地 · FROM</small><div class="boarding-code">${airportCodes[f.from]}</div><time datetime="${iso(f.date,f.depart)}">${f.depart}</time>${placeLink(f.from)}<small class="boarding-zone">北京时间 UTC+8</small></div>
     <div class="boarding-arrow" aria-hidden="true">⟶</div>
-    <div class="boarding-stop"><div class="boarding-code">${airportCodes[f.to]}</div><time datetime="${iso(f.date,f.arrive)}">${f.arrive}</time>${placeLink(f.to)}<small class="boarding-zone">北京时间 UTC+8</small></div>
+    <div class="boarding-stop"><small class="boarding-direction">到达地 · TO</small><div class="boarding-code">${airportCodes[f.to]}</div><time datetime="${iso(f.date,f.arrive)}">${f.arrive}</time>${placeLink(f.to)}<small class="boarding-zone">北京时间 UTC+8</small></div>
    </div>
   </div>
   <div class="boarding-seam" aria-hidden="true"></div>
